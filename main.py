@@ -10,7 +10,7 @@ def trigger_df_job(cloud_event,environment):
     # Specify Project Name
     project = "crm-sales-opportunities"
 
-    #Fetch current date to identify correct file with suffix '_{current_date}'
+    #Fetch current date to identify correct file with suffix '_yyyymmdd'
     current_date = datetime.now().strftime("%Y%m%d")
 
     # Dataflow template for loading CSV to BQ
