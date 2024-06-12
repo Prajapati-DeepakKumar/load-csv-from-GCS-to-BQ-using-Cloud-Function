@@ -1,4 +1,4 @@
-# load-csv-from-GCS-to-BQ-using-Cloud-Function
+# Load csv from GCS to BQ using Cloud-Function
 This repository demonstrates the automation of data transfer from Google Cloud Storage to BigQuery using Cloud Functions.
 
 The filename to be read from the storage bucket has the name format '_filename_yyyymmdd.csv_'.
